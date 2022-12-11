@@ -19,4 +19,6 @@ class DemoController @Autowired constructor(
 
     @GetMapping("list")
     fun list() = service.users
+
+    @GetMapping("health") fun health() {}
 }
